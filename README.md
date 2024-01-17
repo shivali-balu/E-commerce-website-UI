@@ -1,0 +1,1 @@
+Hello , This is a simple and responsive E-commerce website UI built with HTML , CSS and Bootstrap . This website named "SPICES" that showcases various spices and organic products in user-attractive ways . 
