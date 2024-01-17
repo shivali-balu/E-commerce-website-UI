@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600&family=Poppins:ital,wght@0,300;0,400;1,300&family=Roboto:ital,wght@0,100;0,300;1,300;1,500&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap'); 
+
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: 'Roboto', sans-serif;
+
+} 
+
+#home{
+    background: linear-gradient(0deg,rgba(0,0,0,0.6) , rgba(0,0,0,0.6) ) , url("spices\ 2.jpg"); 
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    height: 100vh;  
+    overflow-y: scroll;
+    overflow-x: hidden; 
+    margin-top: 0; 
+   overflow: hidden;
+}
+.navbar{
+    background-color: black;  
+    z-index: 100; 
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+} 
+
+.navbar .navbar-brand{
+    font-size: 27px;
+    font-weight: bold; 
+    color: greenyellow; 
+} 
+
+.nav-item a {
+    color: white; 
+    text-decoration: none; 
+    border-bottom: 1px solid transparent;  
+    transition: .5s ease;
+} 
+
+.nav-item a:hover{
+    border-bottom: 1px solid greenyellow; 
+    color: white;
+
+}
+
+#sign-btn{
+    background-color: yellowgreen !important; 
+    border: none !important; 
+    color: white !important; 
+    font-weight: bold !important; 
+
+
+}  
+
+.navbar .navbar-toggler{
+    background-color: greenyellow; 
+} 
+
+
+.hero-text{
+    text-align: center;  
+    color: white;
+} 
+
+.hero-text h1{
+    font-size: 90px !important; 
+    font-weight: bold; 
+    margin-top: 275px;
+    letter-spacing: 6px !important;
+}
+
+.hero-text p {
+    font-weight: bold;
+    word-spacing: 2px; 
+    font-size: 20px;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  
+    color: black;
+} 
+
+#about {
+    background-color: black;  
+} 
+
+#about img {
+    margin-top: 48px !important; 
+    height: 300px; 
+    width: 95%; 
+}  
+
+#about p {
+    text-align: justify; 
+}
+
+#products{
+    background-color: #222121;  
+    padding: 10px;
+} 
+
+.container h2{
+    padding: 30px; 
+    font-weight: bolder; 
+    color: white;  
+    font-size: 35px;
+    
+} 
+
+.container  .card{
+    min-height: 250px; 
+    width: 300px; 
+    transition: 0.2s ease; 
+    text-align: center;
+    
+} 
+
+.container  .card:hover{
+    transform: scale(1.1); 
+} 
+
+.card-body a {
+    background-color: greenyellow;
+    border: none; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; 
+    font-weight: bold; 
+    color: black;
+} 
+
+.card img {
+    height: 200px !important; 
+    width: 297px !important;
+}  
+
+#contact{
+   background-color: black;
+} 
+
+#contact img{
+    height: 100%; 
+} 
+
+form {
+    display: flex; 
+    flex-direction: column  ;
+}
+
+#contact input{
+    margin: 10px 0;
+}
+ 
+#contact textarea{
+    margin: 10px 0;
+} 
+
+.box{
+    width: 80%;
+} 
+
+.box img {
+    height: 300px !important; 
+    border-radius: 10px; 
+    margin-top: 40px !important;
+} 
+
+form{
+    height: 300px;
+}
+ 
